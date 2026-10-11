@@ -1,55 +1,44 @@
-### Hi there, I'm Naren Pindi 👋
+# Hi, I'm Naren Pindi
 
-<div align="center">
-  <h3>Cybersecurity Engineer | Infrastructure Enthusiast | MS CS Student</h3>
-  <p>I specialize in building, monitoring, and securing enterprise systems.</p>
-</div>
+I'm looking for opportunities in **cybersecurity and IT**, including SOC analysis, systems administration, and infrastructure roles. While I apply, I'm building projects that give me practical experience with Linux, networking, security investigations, and automation.
 
----
+This GitHub brings together my homelab, security labs, and smaller applications. I share what I've built, how it works, and where it still needs improvement.
 
-### 🛡️ About Me
-- 🔭 **Currently working on:** Automating incident response workflows and scaling my Linux Homelab infrastructure.
-- 🎓 **Education:** MS Cybersecurity at University at Buffalo (SUNY), BTech in Computer Science at GITAM University.
-- 💼 **Looking for:** Roles in SOC Analysis, Infrastructure Engineering, and Systems Administration.
-- 🧑‍💻 **Fun Fact:** I host my own local LLMs, smart home automation, and network routing entirely offline!
+[LinkedIn](https://linkedin.com/in/naren-pindi) · [Email](mailto:naren.pindi05@gmail.com)
 
----
+## What I'm working on
 
-### 💻 Tech Stack & Tools
+Recently, I've been developing **JobMatcher** as part of my own job search. It collects job listings and helps assess fit. Current work includes replacing paid collection services with local collectors and keeping incomplete listings out of automatic AI scoring.
 
-**Security & Analysis**  
-![Kali Linux](https://img.shields.io/badge/Kali-268BCC?style=for-the-badge&logo=kalilinux&logoColor=white) 
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=BurpSuite&logoColor=white)
+My **Linux homelab** gives me an ongoing place to work with Docker services, persistent data, DNS, and local AI tooling. It also runs applications for media, documentation, and home automation.
 
-**Infrastructure & Networking**  
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Home Assistant](https://img.shields.io/badge/Home_Assistant-41BDF5?style=for-the-badge&logo=homeassistant&logoColor=white)
-![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+## Projects
 
-**Scripting & Automation**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+| Project | What it covers |
+| --- | --- |
+| **[Scam Shield](https://github.com/Narenpindi123/Scam_msg_finder)** | An Android app that checks suspicious messages locally, explains which rules triggered, and suggests next steps. |
+| **[Homelab](https://github.com/Narenpindi123/Home_lab)** | Linux and Docker infrastructure for self-hosted services, with an updated stack overview and a historical configuration export. |
+| **[JobMatcher notes](https://github.com/Narenpindi123/Home_lab/blob/main/docs/jobmatcher.md)** | Public documentation of my local job-search tool: collection, eligibility checks, and review handling for incomplete listings. |
+| **[Enterprise SOC Lab](https://github.com/Narenpindi123/enterprise-soc-lab)** | Simulated attack telemetry, log normalization, detection rules, MITRE ATT&CK mappings, and an analyst dashboard. |
+| **[Enterprise Network Lab](https://github.com/Narenpindi123/enterprise-network-lab)** | A router, DNS server, web server, and client on one Linux host using network namespaces, virtual links, and nftables. |
+| **[IRAF](https://github.com/Narenpindi123/IRAF)** | A Python toolkit for collecting Linux investigation data, reading authentication activity, hashing evidence, and generating reports. |
 
----
+The SOC and networking projects are lab environments for practicing detection, investigation, and troubleshooting.
 
-### 🔥 Featured Projects
+## Tools I work with
 
-* **[Enterprise SOC Lab](https://github.com/Narenpindi123/enterprise-soc-lab):** A full-scale SOC simulation generating 1,200+ multi-stage attack events. Features a custom SIEM correlation engine with 25+ detection rules mapped to MITRE ATT&CK.
-* **[Hardened Linux Home Server](https://github.com/Narenpindi123/Home_lab):** A multi-service Linux infrastructure running Plex, Home Assistant, and Ollama over a zero-trust Tailscale mesh VPN with strict firewall monitoring.
-* **[Enterprise Network Lab](https://github.com/Narenpindi123/enterprise-network-lab):** Designed a multi-VLAN enterprise topology using Linux namespaces, routing, and nftables. Includes 5 custom troubleshooting playbooks based on raw tcpdump packet analysis.
-* **[IRAF - Forensics Toolkit](https://github.com/Narenpindi123/IRAF):** A Python-based incident response script automating forensic artifact collection (SSH failures, network activity) on Linux for rapid SOC triage.
+- **Systems and networking:** Linux, Docker Compose, network namespaces, nftables, dnsmasq, tcpdump, Wireshark
+- **Security:** authentication logs, incident triage, MITRE ATT&CK mappings, evidence collection
+- **Development:** Python, Bash, TypeScript, React Native / Expo, Git, SQLite
+- **Self-hosting:** Home Assistant, AdGuard Home, Ollama, Open WebUI, Uptime Kuma
 
----
+## Education
 
-### 📫 Connect with me
-[<img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/linkedin.svg" />][linkedin] 
-[<img align="left" alt="Email" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/gmail.svg" />][email]
+- MS Cybersecurity — University at Buffalo (SUNY)
+- BTech in Computer Science — GITAM University
 
-<br/>
+## Get in touch
 
-[linkedin]: https://linkedin.com/in/naren-pindi
-[email]: mailto:naren.pindi05@gmail.com
+I'm interested in roles where I can contribute to everyday technical work, learn from an experienced team, and keep developing these skills. Feedback on the projects is welcome too.
+
+You can reach me on [LinkedIn](https://linkedin.com/in/naren-pindi) or at [naren.pindi05@gmail.com](mailto:naren.pindi05@gmail.com).
