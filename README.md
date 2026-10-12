@@ -53,7 +53,7 @@ These are personal and educational projects. Each repository documents its setup
 
 ## Education
 
-- MS Cybersecurity — University at Buffalo (SUNY)
+- MS Engineering Science — University at Buffalo (SUNY)
 - BTech in Computer Science — GITAM University
 
 ## Get in touch
