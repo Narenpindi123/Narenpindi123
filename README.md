@@ -1,36 +1,55 @@
 # Hi, I'm Naren Pindi
 
-I'm looking for opportunities in **cybersecurity and IT**, including SOC analysis, systems administration, and infrastructure roles. While I apply, I'm building projects that give me practical experience with Linux, networking, security investigations, and automation.
+I build software for problems I run into: organizing a job search, checking suspicious messages, and running applications on my own Linux server.
 
-This GitHub brings together my homelab, security labs, and smaller applications. I share what I've built, how it works, and where it still needs improvement.
+I'm exploring opportunities in **software engineering, applied AI/ML, and cloud/DevOps**, alongside security and IT. My current projects focus on Python automation, web and mobile applications, local LLM integration, and Linux infrastructure.
 
 [LinkedIn](https://linkedin.com/in/naren-pindi) · [Email](mailto:naren.pindi05@gmail.com)
 
-## What I'm working on
+## Selected projects
 
-Recently, I've been developing **JobMatcher** as part of my own job search. It collects job listings and helps assess fit. Current work includes replacing paid collection services with local collectors and keeping incomplete listings out of automatic AI scoring.
+### [JobMatcher](https://github.com/Narenpindi123/Home_lab/tree/main/jobmatcher)
 
-My **Linux homelab** gives me an ongoing place to work with Docker services, persistent data, DNS, and local AI tooling. It also runs applications for media, documentation, and home automation.
+A Python application I built around my own job search. It collects public listings, applies eligibility checks, and uses Ollama to help assess fit against a resume. A Flask dashboard supports review and application tracking, with SQLite for storage.
 
-## Projects
+Incomplete listings stay in a review state instead of receiving automatic AI scores. The public source includes Docker setup instructions and regression tests with synthetic data.
 
-| Project | What it covers |
-| --- | --- |
-| **[Scam Shield](https://github.com/Narenpindi123/Scam_msg_finder)** | An Android app that checks suspicious messages locally, explains which rules triggered, and suggests next steps. |
-| **[Homelab](https://github.com/Narenpindi123/Home_lab)** | Linux and Docker infrastructure for self-hosted services, with an updated stack overview and a historical configuration export. |
-| **[JobMatcher notes](https://github.com/Narenpindi123/Home_lab/blob/main/docs/jobmatcher.md)** | Public documentation of my local job-search tool: collection, eligibility checks, and review handling for incomplete listings. |
-| **[Enterprise SOC Lab](https://github.com/Narenpindi123/enterprise-soc-lab)** | Simulated attack telemetry, log normalization, detection rules, MITRE ATT&CK mappings, and an analyst dashboard. |
-| **[Enterprise Network Lab](https://github.com/Narenpindi123/enterprise-network-lab)** | A router, DNS server, web server, and client on one Linux host using network namespaces, virtual links, and nftables. |
-| **[IRAF](https://github.com/Narenpindi123/IRAF)** | A Python toolkit for collecting Linux investigation data, reading authentication activity, hashing evidence, and generating reports. |
+**Python · Flask · SQLite · Ollama · Docker**
 
-The SOC and networking projects are lab environments for practicing detection, investigation, and troubleshooting.
+### [Scam Shield](https://github.com/Narenpindi123/Scam_msg_finder)
 
-## Tools I work with
+An Android app for checking suspicious messages. It runs rule-based checks on the device, explains the red flags, and suggests next steps. Users can save scans locally and share a report. An installable APK is available in the repository.
 
-- **Systems and networking:** Linux, Docker Compose, network namespaces, nftables, dnsmasq, tcpdump, Wireshark
-- **Security:** authentication logs, incident triage, MITRE ATT&CK mappings, evidence collection
-- **Development:** Python, Bash, TypeScript, React Native / Expo, Git, SQLite
-- **Self-hosting:** Home Assistant, AdGuard Home, Ollama, Open WebUI, Uptime Kuma
+**TypeScript · React Native · Expo · Android**
+
+### [NoteFlow](https://github.com/Narenpindi123/noteflow)
+
+A browser-based notes app with a block editor, tables, keyboard shortcuts, and dark mode. It uses vanilla JavaScript, Firebase Firestore for synchronization, and localStorage as a local fallback.
+
+**JavaScript · HTML · CSS · Firebase**
+
+### [Linux homelab](https://github.com/Narenpindi123/Home_lab)
+
+My environment for running self-hosted applications and working with containers, persistent data, DNS, and local AI tools. The repository includes a stack overview, JobMatcher source, and a historical configuration export.
+
+**Linux · Docker Compose · Bash · Ollama · Open WebUI**
+
+## Security and networking projects
+
+My security background also shows up in how I approach systems, logs, and troubleshooting:
+
+- **[Enterprise Network Lab](https://github.com/Narenpindi123/enterprise-network-lab):** routing, DNS, and firewall exercises using Linux network namespaces and nftables.
+- **[Enterprise SOC Lab](https://github.com/Narenpindi123/enterprise-soc-lab):** simulated attack telemetry, log normalization, detection rules, and an analyst dashboard.
+- **[IRAF](https://github.com/Narenpindi123/IRAF):** Python automation for Linux investigation data collection, evidence hashing, and HTML/JSON reports.
+
+These are personal and educational projects. Each repository documents its setup and limitations.
+
+## What I'm working with
+
+- **Application development:** Python, JavaScript, TypeScript, Flask, React Native, Expo, SQLite, Git
+- **Applied AI:** local LLM integration with Ollama, resume-to-job matching, and review workflows for incomplete data
+- **Infrastructure:** Linux, Bash, Docker Compose, DNS, network namespaces, nftables
+- **Security:** log analysis, incident triage, evidence collection, MITRE ATT&CK mappings
 
 ## Education
 
@@ -39,6 +58,6 @@ The SOC and networking projects are lab environments for practicing detection, i
 
 ## Get in touch
 
-I'm interested in roles where I can contribute to everyday technical work, learn from an experienced team, and keep developing these skills. Feedback on the projects is welcome too.
+I'm looking for a team where I can contribute to building and maintaining useful software, learn from code reviews, and keep developing my engineering skills.
 
-You can reach me on [LinkedIn](https://linkedin.com/in/naren-pindi) or at [naren.pindi05@gmail.com](mailto:naren.pindi05@gmail.com).
+Reach me on [LinkedIn](https://linkedin.com/in/naren-pindi) or at [naren.pindi05@gmail.com](mailto:naren.pindi05@gmail.com).
