@@ -9,6 +9,7 @@ Currently a **Cybersecurity Analyst Intern at Resilience, Inc.** Open to **SOC A
 ## Experience
 
 - **Cybersecurity Analyst Intern, Resilience, Inc.** (Jun 2026 – present): security event monitoring and alert review, vulnerability management, incident investigation and response documentation, Graylog monitoring.
+- **Independent Security Researcher, HackerOne** (2026 – present): test public bug bounty programs for web platform, authentication, and secrets-handling weaknesses, reproduce findings in isolated local labs, and write reports with impact analysis and remediation guidance.
 - **Cybersecurity Intern, Phoenix Global, Hyderabad** (2023): ran 15+ Nmap and OpenVAS scans that surfaced eight critical exposures, including public RDP and unpatched Apache servers; supported remediation tracking for 100+ findings.
 
 ## Security projects
@@ -66,4 +67,4 @@ More: [2FA Authentication System](https://github.com/Narenpindi123/2FA_Authentic
 
 All projects here are personal and educational labs; each repository documents its setup and limitations.
 
-<sub>Other role-focused portfolios: [Network](https://naren-network-portfolio.vercel.app) · [Systems](https://systems-engineer-portfolio.vercel.app) · [Infrastructure](https://naren-infra-portfolio.vercel.app) · [Python](https://naren-python-portfolio.vercel.app) · [Applied AI](https://naren-ai-portfolio.vercel.app)</sub>
+<sub>Specialty portfolios: [Network security](https://naren-network-portfolio.vercel.app) · [Security engineering](https://systems-engineer-portfolio.vercel.app) · [Infrastructure security](https://naren-infra-portfolio.vercel.app) · [Security automation](https://naren-python-portfolio.vercel.app) · [AI security](https://naren-ai-portfolio.vercel.app)</sub>
