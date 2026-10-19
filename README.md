@@ -6,6 +6,17 @@ I'm exploring opportunities in **software engineering, applied AI/ML, and cloud/
 
 [LinkedIn](https://linkedin.com/in/naren-pindi) · [Email](mailto:naren.pindi05@gmail.com)
 
+## Portfolios
+
+Role-focused versions of my portfolio:
+[Applied AI](https://naren-ai-portfolio.vercel.app) ·
+[Python](https://naren-python-portfolio.vercel.app) ·
+[Support & Infrastructure](https://naren-infra-portfolio.vercel.app) ·
+[Systems](https://systems-engineer-portfolio.vercel.app) ·
+[Network](https://naren-network-portfolio.vercel.app) ·
+[Security Analyst](https://security-analyst-portfolio.vercel.app) ·
+[SOC & Detection](https://naren-soc-portfolio.vercel.app)
+
 ## Selected projects
 
 ### [JobMatcher](https://github.com/Narenpindi123/Home_lab/tree/main/jobmatcher)
