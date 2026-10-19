@@ -1,74 +1,69 @@
 # Hi, I'm Naren Pindi
 
-I build software for problems I run into: organizing a job search, checking suspicious messages, and running applications on my own Linux server.
+Cybersecurity analyst focused on **security monitoring, detection engineering, vulnerability management, and incident response**. I turn alerts, logs, and findings into evidence, prioritized remediation, and clear documentation.
 
-I'm exploring opportunities in **software engineering, applied AI/ML, and cloud/DevOps**, alongside security and IT. My current projects focus on Python automation, web and mobile applications, local LLM integration, and Linux infrastructure.
+Currently a **Cybersecurity Analyst Intern at Resilience, Inc.** Open to **SOC Analyst, Security Analyst, and Detection Engineering** roles.
 
-[LinkedIn](https://linkedin.com/in/naren-pindi) · [Email](mailto:naren.pindi05@gmail.com)
+[Security portfolio](https://security-analyst-portfolio.vercel.app) · [SOC portfolio](https://naren-soc-portfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/naren-pindi) · [Email](mailto:naren.pindi05@gmail.com)
 
-## Portfolios
+## Experience
 
-Role-focused versions of my portfolio:
-[Applied AI](https://naren-ai-portfolio.vercel.app) ·
-[Python](https://naren-python-portfolio.vercel.app) ·
-[Support & Infrastructure](https://naren-infra-portfolio.vercel.app) ·
-[Systems](https://systems-engineer-portfolio.vercel.app) ·
-[Network](https://naren-network-portfolio.vercel.app) ·
-[Security Analyst](https://security-analyst-portfolio.vercel.app) ·
-[SOC & Detection](https://naren-soc-portfolio.vercel.app)
+- **Cybersecurity Analyst Intern, Resilience, Inc.** (Jun 2026 – present): security event monitoring and alert review, vulnerability management, incident investigation and response documentation, Graylog monitoring.
+- **Cybersecurity Intern, Phoenix Global, Hyderabad** (2023): ran 15+ Nmap and OpenVAS scans that surfaced eight critical exposures, including public RDP and unpatched Apache servers; supported remediation tracking for 100+ findings.
 
-## Selected projects
+## Security projects
 
-### [JobMatcher](https://github.com/Narenpindi123/Home_lab/tree/main/jobmatcher)
+### [Enterprise SOC Lab](https://github.com/Narenpindi123/enterprise-soc-lab)
 
-A Python application I built around my own job search. It collects public listings, applies eligibility checks, and uses Ollama to help assess fit against a resume. A Flask dashboard supports review and application tracking, with SQLite for storage.
+A SOC simulation that generates attack telemetry across Linux, Windows, cloud, and network sources, normalizes it in a Python SIEM engine with 25+ detection rules mapped to MITRE ATT&CK, and presents correlated alerts in an analyst dashboard. Includes response playbooks and an executive incident report.
 
-Incomplete listings stay in a review state instead of receiving automatic AI scores. The public source includes Docker setup instructions and regression tests with synthetic data.
+**Python · SIEM · Detection rules · MITRE ATT&CK · Log analysis**
 
-**Python · Flask · SQLite · Ollama · Docker**
+### [IRAF: Linux incident response automation](https://github.com/Narenpindi123/IRAF)
+
+Python tooling for post-incident triage on Linux: automated evidence collection from systemd journals and system state, evidence hashing, and HTML/JSON reports.
+
+**Python · DFIR · Linux · Evidence handling**
+
+### [Enterprise Network Lab](https://github.com/Narenpindi123/enterprise-network-lab)
+
+An enterprise network built with Linux network namespaces: VLAN segmentation, inter-VLAN routing, nftables firewall policy, DNS, traffic analysis, and documented troubleshooting.
+
+**Linux · nftables · VLANs · DNS · Network security**
+
+### [IDPS: intrusion detection and prevention](https://github.com/Narenpindi123/IDPS)
+
+Detects SYN floods in real time, sends email alerts, blocks attacker IPs with iptables, and shows events on a Flask dashboard.
+
+**Python · Scapy · iptables · Flask**
 
 ### [Scam Shield](https://github.com/Narenpindi123/Scam_msg_finder)
 
-An Android app for checking suspicious messages. It runs rule-based checks on the device, explains the red flags, and suggests next steps. Users can save scans locally and share a report. An installable APK is available in the repository.
+An Android app that checks suspicious messages on the device with rule-based checks, explains the red flags, and suggests next steps.
 
 **TypeScript · React Native · Expo · Android**
 
-### [NoteFlow](https://github.com/Narenpindi123/noteflow)
+More: [2FA Authentication System](https://github.com/Narenpindi123/2FA_Authentication_System) (password + TOTP login).
 
-A browser-based notes app with a block editor, tables, keyboard shortcuts, and dark mode. It uses vanilla JavaScript, Firebase Firestore for synchronization, and localStorage as a local fallback.
+## Other engineering work
 
-**JavaScript · HTML · CSS · Firebase**
+- **[Linux homelab](https://github.com/Narenpindi123/Home_lab):** self-hosted services on Docker Compose with persistent data, DNS, and local AI (Ollama, Open WebUI).
+- **[JobMatcher](https://github.com/Narenpindi123/Home_lab/tree/main/jobmatcher):** Python/Flask app that collects job listings, applies eligibility checks, and uses a local LLM to assess fit.
+- **[NoteFlow](https://github.com/Narenpindi123/noteflow):** vanilla JavaScript notes app with Firebase sync.
 
-### [Linux homelab](https://github.com/Narenpindi123/Home_lab)
+## Skills
 
-My environment for running self-hosted applications and working with containers, persistent data, DNS, and local AI tools. The repository includes a stack overview, JobMatcher source, and a historical configuration export.
+- **SIEM & detection:** ELK Stack, Wazuh, Graylog, correlation rules, alert triage, MITRE ATT&CK mapping
+- **Security operations:** log analysis, incident response (NIST IR), threat hunting, evidence collection
+- **Vulnerability & risk:** Nmap, OpenVAS, risk prioritization, patch validation, SOC 2, ISO 27001
+- **Tools & automation:** Python, Bash, PowerShell, Wireshark, Burp Suite, Metasploit, Linux, Docker
 
-**Linux · Docker Compose · Bash · Ollama · Open WebUI**
+## Certifications and education
 
-## Security and networking projects
+- CompTIA Security+ · CompTIA PenTest+ · IBM Cybersecurity Analyst
+- MS Engineering Science, Cybersecurity concentration — University at Buffalo (SUNY), Jan 2026
+- BTech Computer Science — GITAM University, 2024
 
-My security background also shows up in how I approach systems, logs, and troubleshooting:
+All projects here are personal and educational labs; each repository documents its setup and limitations.
 
-- **[Enterprise Network Lab](https://github.com/Narenpindi123/enterprise-network-lab):** routing, DNS, and firewall exercises using Linux network namespaces and nftables.
-- **[Enterprise SOC Lab](https://github.com/Narenpindi123/enterprise-soc-lab):** simulated attack telemetry, log normalization, detection rules, and an analyst dashboard.
-- **[IRAF](https://github.com/Narenpindi123/IRAF):** Python automation for Linux investigation data collection, evidence hashing, and HTML/JSON reports.
-
-These are personal and educational projects. Each repository documents its setup and limitations.
-
-## What I'm working with
-
-- **Application development:** Python, JavaScript, TypeScript, Flask, React Native, Expo, SQLite, Git
-- **Applied AI:** local LLM integration with Ollama, resume-to-job matching, and review workflows for incomplete data
-- **Infrastructure:** Linux, Bash, Docker Compose, DNS, network namespaces, nftables
-- **Security:** log analysis, incident triage, evidence collection, MITRE ATT&CK mappings
-
-## Education
-
-- MS Engineering Science — University at Buffalo (SUNY)
-- BTech in Computer Science — GITAM University
-
-## Get in touch
-
-I'm looking for a team where I can contribute to building and maintaining useful software, learn from code reviews, and keep developing my engineering skills.
-
-Reach me on [LinkedIn](https://linkedin.com/in/naren-pindi) or at [naren.pindi05@gmail.com](mailto:naren.pindi05@gmail.com).
+<sub>Other role-focused portfolios: [Network](https://naren-network-portfolio.vercel.app) · [Systems](https://systems-engineer-portfolio.vercel.app) · [Infrastructure](https://naren-infra-portfolio.vercel.app) · [Python](https://naren-python-portfolio.vercel.app) · [Applied AI](https://naren-ai-portfolio.vercel.app)</sub>
